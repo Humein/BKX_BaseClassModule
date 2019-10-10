@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BaseClassModulesRepo_Example' do
+  pod 'BaseClassModulesRepo', :path => '../'
+
+  target 'BaseClassModulesRepo_Tests' do
+    inherit! :search_paths
+    pod 'Masonry'
+
+  end
+end
