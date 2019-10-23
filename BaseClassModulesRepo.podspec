@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseClassModulesRepo'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'BaseClassModulesRepo'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/QinKingHan/BKX_BaseClassModule.git'
+  s.homepage         = 'https://github.com/JeeneDo/BKX_BaseClassModule.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zhang Xin Xin' => 'shou1wang@gmail.com' }
-  s.source           = { :git => 'https://github.com/QinKingHan/BKX_BaseClassModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JeeneDo/BKX_BaseClassModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
