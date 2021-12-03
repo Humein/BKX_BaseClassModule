@@ -1,0 +1,24 @@
+PODS:
+  - BaseClassModulesRepo (0.1.6):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BaseClassModulesRepo (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - Masonry
+
+EXTERNAL SOURCES:
+  BaseClassModulesRepo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaseClassModulesRepo: 8a446a3a9d44ce89501ab949fc44eca24d3dcc3d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: e1c9f96dbec0c121aac456723cf312d761c89395
+
+COCOAPODS: 1.10.0
