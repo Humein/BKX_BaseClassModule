@@ -28,9 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Humein/BKX_BaseClassModule.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
   s.source_files = 'BaseClassModulesRepo/Classes/**/*'
   s.dependency "Masonry"
+  
+  s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
+  s.dependency 'XesAppSocial' # 含有 .a
+
 
   # s.resource_bundles = {
   #   'BaseClassModulesRepo' => ['BaseClassModulesRepo/Assets/*.png']

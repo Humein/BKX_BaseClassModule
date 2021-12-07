@@ -6,6 +6,8 @@
 //
 
 import Foundation
-public func testSwift() {
-    print("======")
+public class XXBaseSwift: UIViewController {
+    public func testBaseSwift() {
+        
+    }
 }
