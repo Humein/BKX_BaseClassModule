@@ -32,7 +32,8 @@ TODO: Add long description of the pod here.
   s.dependency "Masonry"
   
   s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
-  s.dependency 'XesAppSocial' # 含有 .a
+#  s.dependency 'XesAppSocial' # subSpecs 引入 .a
+#  s.dependency 'TALDeviceSDKNoIDFA','1.05.02'  # 直接 含有 .a
 
 
   # s.resource_bundles = {
